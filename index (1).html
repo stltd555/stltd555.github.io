@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official website of S T BUILDERS AND PLASTERING LTD, a UK-registered company. Company information, building and plastering enquiries, digital products and contact details.">
+  <meta name="theme-color" content="#14263a">
+  <title>S T BUILDERS AND PLASTERING LTD | Official Website</title>
+  <style>
+    :root{--navy:#14263a;--navy2:#203d5b;--blue:#3676ad;--gold:#e5b45f;--ink:#27364a;--muted:#68788d;--bg:#f4f6f9;--line:#e4e9ef;--white:#fff;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.7;background:#fff}
+    a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .top{background:#0c1929;color:#dce5ee;font-size:12px;padding:8px 0}.top .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.top a{color:#fff}
+    header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+    .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:11px;min-width:250px}.logo{width:45px;height:45px;background:var(--navy);color:var(--gold);display:grid;place-items:center;border-radius:12px;font-weight:900;font-size:19px}
+    .brand strong{display:block;color:var(--navy);font-size:13px;line-height:1.25}.brand small{display:block;color:var(--muted);font-size:9px;letter-spacing:1.7px;margin-top:4px}
+    .links{display:flex;gap:21px;align-items:center;font-size:12px;font-weight:700;color:#43536a}.links a:hover{color:var(--blue)}
+    .navbtn,.btn{display:inline-block;background:var(--blue);color:white;padding:11px 17px;border-radius:8px;font-size:13px;font-weight:700;border:1px solid var(--blue)}
+    .navbtn:hover,.btn:hover{background:#245b8b}.menu{display:none;background:white;border:1px solid var(--line);padding:8px 11px;border-radius:8px;font-size:20px}
+    .hero{background:linear-gradient(115deg,rgba(12,27,46,.98),rgba(31,62,91,.94));color:white;padding:94px 0 88px;position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;width:490px;height:490px;border:1px solid #ffffff1c;border-radius:50%;right:-130px;top:-170px;box-shadow:0 0 0 55px #ffffff08,0 0 0 110px #ffffff06}
+    .hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:55px;align-items:center;position:relative;z-index:1}
+    .eyebrow{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+    h1{font-size:clamp(38px,5vw,64px);line-height:1.1;letter-spacing:-1.7px;margin:18px 0}
+    .hero p{font-size:16px;color:#d6e0ea;max-width:660px;margin:0 0 27px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn.outline{background:transparent;border-color:#ffffff75}.hero-card{background:#ffffff12;border:1px solid #ffffff30;border-radius:18px;padding:27px}
+    .hero-card .monogram{font-size:54px;font-weight:900;color:var(--gold);line-height:1}.hero-card h2{font-size:19px;color:white;margin:14px 0 7px;letter-spacing:0}.hero-card p{font-size:13px;margin:0}
+    .hero-facts{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:22px}.hero-facts span{border-top:1px solid #ffffff38;padding-top:10px;font-size:11px;font-weight:700;color:#e2eaf2}
+    .trust{background:#f1f4f7;border-bottom:1px solid var(--line)}.trust .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:19px 0}
+    .trust div{text-align:center;color:#465a70;font-size:12px;font-weight:700}.trust b{color:var(--navy)}
+    section{scroll-margin-top:90px}.section{padding:78px 0}.soft{background:var(--bg)}
+    .heading{max-width:720px;margin-bottom:35px}.heading.center{text-align:center;margin:0 auto 38px}
+    .kicker{color:var(--blue);font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:800}
+    h2{color:var(--navy);font-size:clamp(28px,3.5vw,40px);line-height:1.2;letter-spacing:-.8px;margin:11px 0 14px}
+    .heading p,.muted{color:var(--muted);font-size:15px;margin:0}
+    .about{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;align-items:center}
+    .visual{min-height:370px;border-radius:18px;padding:29px;background:linear-gradient(145deg,#24496b,#102238);color:white;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+    .visual:before{content:"";position:absolute;width:280px;height:280px;border:1px solid #ffffff25;transform:rotate(35deg);right:-75px;top:-55px;border-radius:35px}
+    .visual:after{content:"";position:absolute;width:210px;height:210px;border:1px solid #ffffff20;transform:rotate(35deg);right:25px;bottom:-85px;border-radius:30px}
+    .visual small,.visual strong,.visual span{position:relative;z-index:1}.visual small{color:var(--gold);font-weight:800;letter-spacing:2px}.visual strong{font-size:29px;line-height:1.25;max-width:300px}.visual span{font-size:12px;color:#d3dfeb}
+    .copy p{color:var(--muted);font-size:14px;margin:0 0 14px}.ticks{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0;margin:22px 0 0;list-style:none}
+    .ticks li{font-size:13px;font-weight:700;color:#40536a}.ticks li:before{content:"✓";color:var(--blue);font-weight:900;margin-right:9px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:25px;transition:.2s}
+    .card:hover{transform:translateY(-4px);box-shadow:0 15px 35px #14243a12}.icon{width:47px;height:47px;border-radius:12px;background:#eaf1f7;color:var(--blue);display:grid;place-items:center;font-size:22px;margin-bottom:17px}
+    .card h3{color:var(--navy);font-size:17px;margin:0 0 8px}.card p{color:var(--muted);font-size:13px;margin:0}
+    .disclaimer{font-size:11px;color:var(--muted);margin-top:20px}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{background:white;padding:22px;border-radius:12px;border-left:3px solid var(--gold)}
+    .step b{font-size:11px;color:var(--blue);letter-spacing:1px}.step h3{font-size:15px;color:var(--navy);margin:8px 0}.step p{font-size:12px;color:var(--muted);margin:0}
+    .company-panel{display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center;background:var(--navy);border-radius:20px;padding:40px;color:white}
+    .company-panel h2{color:white;margin:10px 0}.company-panel p{color:#d1dce7;max-width:700px;font-size:14px;margin:0}.panel-mark{width:95px;height:95px;border:1px solid #ffffff38;border-radius:24px;display:grid;place-items:center;color:var(--gold);font-size:36px;font-weight:900}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:28px}.contact-box,.contact-note{padding:28px;border:1px solid var(--line);border-radius:15px;background:white}
+    .contact-item{display:flex;gap:13px;padding:14px 0;border-bottom:1px solid var(--line)}.contact-item:last-child{border:0}.contact-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:10px;background:#eaf1f7;color:var(--blue);flex-shrink:0}
+    .contact-item small{display:block;color:var(--muted);font-size:11px}.contact-item strong{font-size:13px;overflow-wrap:anywhere}
+    .contact-note{background:var(--bg)}.contact-note h3{margin:0 0 8px;color:var(--navy)}.contact-note p{color:var(--muted);font-size:13px}
+    .privacy-note{padding:22px 25px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;color:var(--muted);font-size:12px}
+    footer{background:#0c1929;color:#c5d0dc;padding:42px 0 18px}.footgrid{display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:30px;padding-bottom:28px}
+    footer h3{font-size:14px;color:white;margin:0 0 10px}footer p,footer a{font-size:12px;color:#b8c5d3}footer a:hover{color:white}.footlinks{display:grid;gap:6px}
+    .copyright{border-top:1px solid #ffffff20;padding-top:15px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11px;color:#91a2b5}
+    @media(max-width:900px){.links{gap:12px}.links a{font-size:11px}.hero-grid,.about,.contact{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:680px){.wrap{width:calc(100% - 30px)}.top .wrap{justify-content:center;text-align:center}.nav{height:68px}.menu{display:block}.links{display:none;position:absolute;top:68px;left:0;right:0;background:white;padding:18px 22px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.links.open{display:flex}.navbtn{display:none}.hero{padding:65px 0}.hero-grid{gap:30px}h1{letter-spacing:-1px}.section{padding:60px 0}.trust .wrap{grid-template-columns:1fr;gap:8px}.cards,.steps,.ticks{grid-template-columns:1fr}.company-panel{grid-template-columns:1fr;padding:28px}.panel-mark{width:70px;height:70px;font-size:27px}.footgrid{grid-template-columns:1fr;gap:18px}}
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div class="wrap">
+      <span>UK-registered company · Official website</span>
+      <span><a href="mailto:stbuildersltd555@gmail.com">stbuildersltd555@gmail.com</a></span>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home">
+        <span class="logo">ST</span>
+        <span><strong>S T BUILDERS AND<br>PLASTERING LTD</strong><small>BUILDING · PLASTERING</small></span>
+      </a>
+      <button class="menu" aria-label="Toggle navigation" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+      <nav class="links" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Our Focus</a><a href="#company">Company</a><a href="#apps">Digital Products</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="navbtn" href="#contact">Contact Us ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Welcome to S T Builders</span>
+          <h1>Building a strong foundation for tomorrow.</h1>
+          <p>Welcome to the official website of S T BUILDERS AND PLASTERING LTD, a UK-registered company. Find company information, learn about our building and plastering focus, and contact us directly.</p>
+          <div class="actions"><a class="btn" href="#about">Discover Our Company&nbsp; →</a><a class="btn outline" href="#contact">Get in Touch</a></div>
+        </div>
+        <aside class="hero-card">
+          <div class="monogram">ST</div>
+          <h2>S T BUILDERS AND PLASTERING LTD</h2>
+          <p>Company information and contact details from our official online presence.</p>
+          <div class="hero-facts"><span>UK registered</span><span>Company information</span><span>Building &amp; plastering</span><span>Digital products</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="trust"><div class="wrap"><div><b>UK</b> · Registered company</div><div><b>Official</b> · Company information</div><div><b>Direct</b> · Email contact</div></div></div>
+
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="visual"><small>ABOUT THE COMPANY</small><strong>Professional presence. Clear information. Direct communication.</strong><span>S T BUILDERS AND PLASTERING LTD · UNITED KINGDOM</span></div>
+        <div class="copy">
+          <span class="kicker">Who We Are</span>
+          <h2>About S T BUILDERS AND PLASTERING LTD</h2>
+          <p>S T BUILDERS AND PLASTERING LTD is a company registered in the United Kingdom. This website has been created as an online point of reference for people who want to learn about the company or make contact.</p>
+          <p>The company name reflects a focus on building and plastering. We welcome enquiries from individuals and organisations who would like to discuss relevant work or request further information.</p>
+          <p>This website also provides a place for information about the company's digital products and mobile applications as they become available.</p>
+          <ul class="ticks"><li>UK company presence</li><li>Building and plastering focus</li><li>Company contact information</li><li>Digital product updates</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="services">
+      <div class="wrap">
+        <div class="heading center"><span class="kicker">Our Business Focus</span><h2>Building &amp; Plastering</h2><p>Our company name reflects our building and plastering focus. For details about a particular project or service, please contact us directly.</p></div>
+        <div class="cards">
+          <article class="card"><div class="icon">⌂</div><h3>Building Enquiries</h3><p>Contact us to discuss building-related requirements, project information and potential work.</p></article>
+          <article class="card"><div class="icon">▤</div><h3>Plastering Enquiries</h3><p>We welcome enquiries relating to plastering work and associated project requirements.</p></article>
+          <article class="card"><div class="icon">✧</div><h3>Project Discussions</h3><p>Share the details of your proposed work so that your enquiry can be understood and directed appropriately.</p></article>
+          <article class="card"><div class="icon">▣</div><h3>Company Information</h3><p>Use this website as a point of contact for general questions about S T BUILDERS AND PLASTERING LTD.</p></article>
+          <article class="card"><div class="icon">▦</div><h3>Digital Products</h3><p>Information about mobile applications and other digital products will be added when they are available.</p></article>
+          <article class="card"><div class="icon">✉</div><h3>Customer Communication</h3><p>For enquiries, feedback or further information, contact the company using the email address on this website.</p></article>
+        </div>
+        <p class="disclaimer">Please contact the company to confirm current service availability, project scope and any applicable terms.</p>
+      </div>
+    </section>
+
+    <section class="section" id="approach">
+      <div class="wrap">
+        <div class="heading"><span class="kicker">How to Contact Us</span><h2>A straightforward way to get in touch</h2><p>For a clear and helpful response, include the relevant details in your enquiry.</p></div>
+        <div class="steps">
+          <article class="step"><b>01 · WRITE</b><h3>Send your enquiry</h3><p>Email us with a short description of what you would like to discuss.</p></article>
+          <article class="step"><b>02 · INCLUDE</b><h3>Add useful details</h3><p>Include relevant project, service or application information where applicable.</p></article>
+          <article class="step"><b>03 · REVIEW</b><h3>We review your message</h3><p>Your enquiry can be reviewed so that the subject and requirements are clear.</p></article>
+          <article class="step"><b>04 · RESPOND</b><h3>Stay in contact</h3><p>We can reply using the email address from which you contacted us.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="company">
+      <div class="wrap">
+        <div class="company-panel">
+          <div><span class="eyebrow">Company Information</span><h2>S T BUILDERS AND PLASTERING LTD</h2><p>We are a UK-registered company. For official company registration details, please refer to the UK Companies House public register and search for the exact company name. For general enquiries, please use our contact email.</p></div>
+          <div class="panel-mark">ST</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apps">
+      <div class="wrap">
+        <div class="heading"><span class="kicker">Digital Products</span><h2>Our Apps &amp; Online Services</h2><p>We may use this website to share information about mobile applications and other digital products associated with the company.</p></div>
+        <div class="cards">
+          <article class="card"><div class="icon">▣</div><h3>Android Applications</h3><p>Details and links for Android applications will be displayed here when the relevant apps are published.</p></article>
+          <article class="card"><div class="icon">◎</div><h3>App Support</h3><p>For questions about an application, please include its name and a description of the issue in your email.</p></article>
+          <article class="card"><div class="icon">⌕</div><h3>Updates &amp; Information</h3><p>Check this section for future information about our digital products and related updates.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="contact">
+      <div class="wrap">
+        <div class="heading center"><span class="kicker">Contact Us</span><h2>We would be pleased to hear from you</h2><p>For company, building, plastering or digital product enquiries, please contact us by email.</p></div>
+        <div class="contact">
+          <div class="contact-box">
+            <div class="contact-item"><span class="contact-icon">✉</span><div><small>Email Address</small><strong><a href="mailto:stbuildersltd555@gmail.com">stbuildersltd555@gmail.com</a></strong></div></div>
+            <div class="contact-item"><span class="contact-icon">▦</span><div><small>Company Name</small><strong>S T BUILDERS AND PLASTERING LTD</strong></div></div>
+            <div class="contact-item"><span class="contact-icon">⌖</span><div><small>Company Registration</small><strong>United Kingdom</strong></div></div>
+            <div class="contact-item"><span class="contact-icon">↗</span><div><small>Website</small><strong>Official company information page</strong></div></div>
+          </div>
+          <div class="contact-note"><h3>Send us an email</h3><p>When contacting us, please use a clear subject line and include enough information for us to understand your enquiry.</p><p>For app support, mention the app name, device type and a brief description of your question. Please do not include passwords or sensitive personal information in your message.</p><a class="btn" href="mailto:stbuildersltd555@gmail.com?subject=Website%20Enquiry">Email the Company&nbsp; →</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="privacy">
+      <div class="wrap">
+        <div class="heading"><span class="kicker">Privacy Information</span><h2>Privacy &amp; Data Enquiries</h2></div>
+        <div class="privacy-note">
+          If you contact us by email, we will receive the information you choose to include so that we can review and respond to your enquiry. Please avoid sending passwords or unnecessary sensitive information. Any mobile application published by the company should have its own privacy policy explaining the information that app collects, uses, stores or shares. This general website notice is not a substitute for an app-specific privacy policy.
+          <br><br>For privacy-related questions, email <a href="mailto:stbuildersltd555@gmail.com">stbuildersltd555@gmail.com</a>.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footgrid">
+        <div><h3>S T BUILDERS AND PLASTERING LTD</h3><p>Official online presence of a UK-registered company. For company and application enquiries, please contact us by email.</p></div>
+        <div><h3>Quick Links</h3><div class="footlinks"><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Our Business Focus</a><a href="#apps">Digital Products</a><a href="#privacy">Privacy Information</a></div></div>
+        <div><h3>Contact Details</h3><p>Email: <a href="mailto:stbuildersltd555@gmail.com">stbuildersltd555@gmail.com</a></p><p>Company: S T BUILDERS AND PLASTERING LTD<br>Registration jurisdiction: United Kingdom</p></div>
+      </div>
+      <div class="copyright"><span>© <span id="year">2026</span> S T BUILDERS AND PLASTERING LTD. All rights reserved.</span><span>Official Company Website</span></div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.links a').forEach(function(link){
+      link.addEventListener('click',function(){document.querySelector('.links').classList.remove('open');});
+    });
+  </script>
+</body>
+</html>
